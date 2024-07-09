@@ -33,7 +33,7 @@ sns.boxplot(df.Age)
 
 #outliers*******************************
 
-df[df.Age<60].shape
+df[df.Age>60].shape
 
 df.Age.hist()
 
