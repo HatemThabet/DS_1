@@ -13,3 +13,4 @@ import seaborn as sns
 
 pp=pd.read_csv('productprice.csv')
 pp.head()
+pp.info()
